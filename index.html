@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio Website</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header> 
+<div class="user">
+    <img src="telle.jpg" alt="">
+    <h3 class="name">Kristtele Anne Parayaoan</h3>
+    <p class="post">Web Developer kineme</p>
+</div>
+
+<nav class="navbar">
+ <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+
+ </ul>
+
+</nav>
+
+
+</header>
+
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!--HOME SECTION-->
+<section class="home" id="home">
+    <h3>Hello there!</h3>
+    <h1>I am <span> Kristtele Parayaoan</span></h1>
+    <p> I am an aspiring web developer.</p>
+    <a href="#about"><button class="btn">About Me<i class="fas fa-user"></i></button></a>
+</section>
+
+<!--HOME SECTION ENDS-->
+
+
+<!--ABOUT SECTION-->
+<section class="about" id="about">
+
+<h1 class="heading"><span>About</span> me</h1>
+
+<div class="row">
+    <div class="info">
+    <h3> <span> Name: </span> Kristtele Anne Parayaoan</h3>
+    <h3> <span> Age: </span> 22 </h3>
+    <h3> <span> Language: </span> Tagalog and English</h3>
+    <a href="#"><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+</div>
+<div class="counter">
+    <div class="box">
+        <span>100</span>
+        <h3>years of experience</h3>
+    </div>
+
+    <div class="box">
+        <span>5000</span>
+        <h3>Projects Completed</h3>
+    </div>
+
+    <div class="box">
+        <span>200+</span>
+        <h3>Satisfied Clients</h3>
+    </div>
+
+    <div class="box">
+        <span>20+</span>
+        <h3>Certificates</h3>
+    </div>
+
+</div>
+</div>
+</section>
+
+<!--ABOUT SECTION ENDS-->
+
+
+<!--EDUCATION SECTION -->
+<section class="education" id="education">
+    <h1 class="heading"> My <span>Education</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2008-2014</span>
+            <h3>Grade School</h3>
+            <p> Studied at Rosa L. Susano Novaliches Elementary School</p>
+        </div>
+        
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2014-2018</span>
+            <h3>Junior High School</h3>
+            <p> Studied at Doña Rosario High School </p>
+        </div> 
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2018-2020</span>
+            <h3>Senior High School </h3>
+            <p> Studied at St.Clare College of Caloocan </p>
+        </div> 
+
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2022-2025</span>
+            <h3> College </h3>
+            <p> Currently stuDYING at St.Clare College of Caloocan as a BSCS student </p>
+        </div> 
+        </div>
+    </div>
+</section>
+
+<!--EDUCATION SECTION ENDS-->
+
+
+
+<!--PORTFOLIO SECTION START-->
+<section class="portfolio" id="portfolio">
+    <h1 class="heading">My <span>Portfolio</span></h1>
+
+<div class="box-container">
+
+    <div class="box">
+    <img src="1.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <img src="2.jpg" alt="">
+        </div>
+
+
+    <div class="box">
+        <img src="3.jpg" alt="">
+        </div>
+
+
+        <div class="box">
+            <img src="4.jpg" alt="">
+            </div>
+</div>
+</section>
+<!--PORTFOLIO SECTION ENDS-->
+
+<!--CONTACT SECTION-->
+<section class="contact" id="contact">
+<h1 class="heading"><span>Contact</span> Me</h1>
+
+<div class="row">
+    <div class="content">
+    <h3 class="title">Contact Information</h3>
+    
+<div class="info">
+    <h3> <i class="fas fa-envelope"></i>kristteleparayaoan@gmail.com</h3>
+    <h3> <i class="fas fa-phone"></i>09510813327</h3>
+    <h3> <i class="fas fa-map-marker-alt"></i>Quezon City, Philippines</h3>
+</div>
+</div>
+
+<form action="">
+    <input type="text" placeholder="Name" class="box">
+    <input type="email" placeholder="Email" class="box">
+    <input type="text" placeholder="Project" class="box">
+    <textarea name="" id="" cols="30" rows="10"  class="box message" placeholder="Message"></textarea>
+    <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+
+</form>
+</div>
+</section>
+
+
+<!--CONTACT SECTION ENDS-->
+
+<a href="#home">
+    <img src="images"
+</a>
+
+
+
+
+
+
+<!-- JQUERY CDN LINK-->    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+
+
+</body>
+</html>
